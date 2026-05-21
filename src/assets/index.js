@@ -30,6 +30,7 @@ import yep from "./client/yep.png";
 import faithadmin from "./client/faithadmin.png";
 import vespucci from "./client/vespucci.png";
 import okx_trading_bot from "./client/okx_trading_bot.png";
+import abims from "./client/abims.png";
 
 export {
   upwork,
@@ -58,4 +59,5 @@ export {
   faithadmin,
   vespucci,
   okx_trading_bot,
+  abims,
 };

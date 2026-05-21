@@ -19,6 +19,7 @@ import {
   faithadmin,
   vespucci,
   okx_trading_bot,
+  abims,
 } from "../assets";
 
 import skills_1 from "/skills/skill-1.png";
@@ -395,6 +396,53 @@ const projects = [
       {
         name: "Fullstack Developer",
         color: "blue-text-gradient",
+      },
+    ],
+  },
+  {
+    name: "ABIMS",
+    description:
+      "ABIMS is a robust inventory management system built to give businesses real-time visibility and control over their stock. From tracking product movements and managing purchase orders to generating inventory reports, the platform streamlines operations end-to-end. Deployed on AWS EC2 via Dokku, the system is production-ready with a scalable infrastructure that handles both the frontend and backend under a unified, maintainable pipeline.",
+    tools: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Laravel",
+        color: "red-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ShadCN",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWS EC2",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Dokku",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: abims,
+    source_code_link: "https://abims-git-staging-viltlaravels-projects.vercel.app/sign-in",
+    role: [
+      {
+        name: "Fullstack Engineer",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "DevOps",
+        color: "orange-text-gradient",
       },
     ],
   },
