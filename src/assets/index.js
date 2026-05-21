@@ -29,6 +29,7 @@ import ehr from "./client/ehr.png";
 import yep from "./client/yep.png";
 import faithadmin from "./client/faithadmin.png";
 import vespucci from "./client/vespucci.png";
+import okx_trading_bot from "./client/okx_trading_bot.png";
 
 export {
   upwork,
@@ -56,4 +57,5 @@ export {
   yep,
   faithadmin,
   vespucci,
+  okx_trading_bot,
 };

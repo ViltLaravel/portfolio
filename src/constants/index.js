@@ -18,6 +18,7 @@ import {
   yep,
   faithadmin,
   vespucci,
+  okx_trading_bot,
 } from "../assets";
 
 import skills_1 from "/skills/skill-1.png";
@@ -355,6 +356,45 @@ const projects = [
       {
         name: "Frontend Developer",
         color: "orange-text-gradient",
+      },
+    ],
+  },
+  {
+    name: "OKX Trading Bot",
+    description:
+      "A full-featured automated crypto trading bot integrated with the OKX exchange API, enabling users to execute rule-based trading strategies without manual intervention. Features real-time candlestick charts powered by lightweight-charts, automated order execution via scheduled cron jobs, and a clean dashboard for monitoring positions and performance — giving traders a hands-free edge in fast-moving markets.",
+    tools: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OKX API",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "lightweight-charts",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ShadCN",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CronJob",
+        color: "red-text-gradient",
+      },
+    ],
+    image: okx_trading_bot,
+    source_code_link: "https://okx-trading-bot.vercel.app/login",
+    role: [
+      {
+        name: "Fullstack Developer",
+        color: "blue-text-gradient",
       },
     ],
   },
