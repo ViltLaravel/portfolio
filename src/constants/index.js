@@ -137,7 +137,7 @@ const experiences = [
     ],
   },
   {
-    title: "Frontend Developer - Remote (Freelance)",
+    title: "Fullstack Developer - Remote (Freelance)",
     company_name: "Upwork",
     icon: upwork,
     iconBg: "#08CB00",
