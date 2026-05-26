@@ -485,7 +485,7 @@ const blogs = [
     title: "From Student to Software Engineer: My First Year in the Industry",
     excerpt:
       "I grew up in Bohol, Philippines a place more known for tarsiers and white sand beaches than tech startups. Getting into Computer Science at Bohol Island State University felt like the first bet I placed on myself. I had no senior dev in the family to ask questions, no local tech community to lean on. Just a laptop, a dream, and a lot of Stack Overflow tabs.",
-    date: "May 10, 2025",
+    date: "May 10, 2023",
     tag: "Career",
     readTime: "5 min read",
     link: "https://dev.to/cog_dev_15/from-student-to-software-engineer-my-first-year-in-the-industry-377",
