@@ -137,11 +137,11 @@ const experiences = [
     ],
   },
   {
-    title: "Fullstack Developer - Remote (Freelance)",
+    title: "Software Engineer - Remote (Freelance)",
     company_name: "Upwork",
     icon: upwork,
     iconBg: "#08CB00",
-    date: "June 2025 - Present",
+    date: "December 2024 - Present",
     points: [
       "Developed responsive web applications using React.js and Next.js.",
       "Designed clean and user-friendly interfaces with Figma and Tailwind CSS.",
