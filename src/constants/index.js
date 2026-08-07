@@ -20,6 +20,7 @@ import {
   vespucci,
   okx_trading_bot,
   abims,
+  zurpri,
 } from "../assets";
 
 import skills_1 from "/skills/skill-1.png";
@@ -442,6 +443,45 @@ const projects = [
       },
       {
         name: "DevOps",
+        color: "orange-text-gradient",
+      },
+    ],
+  },
+  {
+    name: "Zurpri",
+    description:
+      "Zurpri is a personal project for creating custom surprise web pages for special occasions like birthdays, monthsaries, crush reveals, and anniversaries. Users pick from interactive templates featuring unlockable content, quizzes, and video reveals, then receive a personalized shareable link to send to their guests.",
+    tools: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: zurpri,
+    source_code_link: "https://zurpri.liqwid.space/",
+    role: [
+      {
+        name: "Fullstack Developer",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "UI/UX Designer",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Solo/Personal Project",
         color: "orange-text-gradient",
       },
     ],

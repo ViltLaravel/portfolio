@@ -31,6 +31,7 @@ import faithadmin from "./client/faithadmin.png";
 import vespucci from "./client/vespucci.png";
 import okx_trading_bot from "./client/okx_trading_bot.png";
 import abims from "./client/abims.png";
+import zurpri from "./client/zurpri.png";
 
 export {
   upwork,
@@ -60,4 +61,5 @@ export {
   vespucci,
   okx_trading_bot,
   abims,
+  zurpri,
 };
