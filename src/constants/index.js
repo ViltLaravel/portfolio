@@ -21,6 +21,8 @@ import {
   okx_trading_bot,
   abims,
   zurpri,
+  jokie,
+  kawaii_finder,
 } from "../assets";
 
 import skills_1 from "/skills/skill-1.png";
@@ -470,7 +472,7 @@ const projects = [
       },
     ],
     image: zurpri,
-    source_code_link: "https://zurpri.liqwid.space/",
+    source_code_link: "https://zurpri.xyz",
     role: [
       {
         name: "Fullstack Developer",
@@ -479,6 +481,76 @@ const projects = [
       {
         name: "UI/UX Designer",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Solo/Personal Project",
+        color: "orange-text-gradient",
+      },
+    ],
+  },
+  {
+    name: "Jokie",
+    description:
+      "Jokie delivers a fresh programming joke on demand for developers who need a quick laugh. The responsive interface fetches jokes from the Official Joke API and includes developer and project information in accessible modal dialogs.",
+    tools: [
+      {
+        name: "React",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Vite",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "REST API",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jokie,
+    source_code_link: "https://jokie.vercel.app/",
+    role: [
+      {
+        name: "Frontend Developer",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Solo/Personal Project",
+        color: "orange-text-gradient",
+      },
+    ],
+  },
+  {
+    name: "Kawaii Finder",
+    description:
+      "Kawaii Finder is a sleek anime discovery app for browsing and searching thousands of titles from MyAnimeList. It uses the Jikan API to present anime artwork, scores, release details, and direct links in a responsive interface.",
+    tools: [
+      {
+        name: "Vue 3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Jikan API",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Vite",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: kawaii_finder,
+    source_code_link: "https://kawaii-finder.vercel.app",
+    role: [
+      {
+        name: "Frontend Developer",
+        color: "blue-text-gradient",
       },
       {
         name: "Solo/Personal Project",
