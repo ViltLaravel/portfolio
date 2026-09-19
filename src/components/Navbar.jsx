@@ -18,7 +18,7 @@ export default function Navbar() {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-10 h-10 object-contain" />
+          <img src={logo} alt="Nicole Amoguis home" className="w-10 h-10 object-contain" />
         </Link>
 
         <ul className="list-none hidden md:flex flex-row gap-10">
