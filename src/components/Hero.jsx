@@ -1,5 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
-import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
@@ -83,8 +81,7 @@ export default function Hero() {
         />
       )}
 
-      {/* ── Your existing hero section (unchanged) ── */}
-      <section className="w-full flex flex-col justify-center xl:justify-start items-center gap-20 h-[calc(100vh-100px)] m-auto">
+      <section className="w-full min-h-[calc(100svh-80px)] flex items-center justify-center px-4 py-12">
         {init && (
           <Particles
             id="tsparticles"
@@ -93,10 +90,10 @@ export default function Hero() {
           />
         )}
 
-        <div className="w-full flex justify-center flex-col gap-8 items-center">
-          <div className="flex flex-col items-center gap-3">
+        <div className="w-full flex flex-col items-center gap-8 text-center">
+          <div className="w-full flex flex-col items-center gap-3">
             <h1
-              className="text-4xl md:text-6xl lg:text-7xl xl:text-9xl font-bold uppercase"
+              className="max-w-full text-4xl md:text-6xl lg:text-7xl xl:text-9xl font-bold uppercase leading-tight break-words"
               style={{
                 background: "linear-gradient(105deg, #915EFF 20%, #ffffff 40%, #c084fc 50%, #915EFF 70%)",
                 backgroundSize: "250% auto",
@@ -120,7 +117,7 @@ export default function Hero() {
               }}
             />
           </div>
-          <div className="text-white-100 text-xl xl:text-7xl font-semibold">
+          <div className="w-full text-center text-white-100 text-xl md:text-4xl xl:text-7xl font-semibold">
             <Typewriter
               options={{
                 strings: [
@@ -133,18 +130,6 @@ export default function Hero() {
               }}
             />
           </div>
-        </div>
-
-        <div className="w-full flex justify-center items-center">
-          <a href="#about">
-            <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-              <motion.div
-                animate={{ y: [0, 24, 0] }}
-                transition={{ duration: 1.5, repeat: Infinity, repeatType: "loop" }}
-                className="w-3 h-3 rounded-full bg-secondary mb-1"
-              />
-            </div>
-          </a>
         </div>
       </section>
     </>
