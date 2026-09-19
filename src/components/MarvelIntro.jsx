@@ -27,11 +27,11 @@ export default function MarvelIntro({
   const [titleIndex, setTitleIndex] = useState(0);
   const [isDone, setIsDone] = useState(false);
   const cancelRef = useRef(false);
-  const frameRef = useRef(0);
-
-  const totalPhotos = photos.length;
+  const startingRef = useRef(false);
+  const loadedPhotosRef = useRef([]);
 
   const generateUniqueFrames = useCallback(() => {
+    const totalPhotos = loadedPhotosRef.current.length;
     if (totalPhotos === 0) {
       return Array(9).fill(null).map(() => ({
         color: PLACEHOLDER_COLORS[Math.floor(Math.random() * PLACEHOLDER_COLORS.length)],
@@ -55,11 +55,22 @@ export default function MarvelIntro({
       color: PLACEHOLDER_COLORS[Math.floor(Math.random() * PLACEHOLDER_COLORS.length)],
       imgIndex: pool[i],
     }));
-  }, [totalPhotos]);
+  }, []);
 
   const runIntro = useCallback(async () => {
-    if (phase === "running") return;
+    if (startingRef.current || phase === "running") return;
+    startingRef.current = true;
     cancelRef.current = false;
+    const loadedPhotos = await Promise.all(
+      photos.map((src) => new Promise((resolve) => {
+        const image = new Image();
+        image.onload = () => resolve(src);
+        image.onerror = () => resolve(null);
+        image.src = src;
+      }))
+    );
+    if (cancelRef.current) return;
+    loadedPhotosRef.current = loadedPhotos.filter(Boolean);
     setPhase("running");
     setNameVisible(false);
     setSubtitleVisible(false);
@@ -124,7 +135,7 @@ export default function MarvelIntro({
     setIsDone(true);
     setPhase("done");
     onComplete?.();
-  }, [phase, generateUniqueFrames, titles, onComplete]);
+  }, [phase, photos, generateUniqueFrames, titles, onComplete]);
 
   // Auto-play on mount
   useEffect(() => {
@@ -171,9 +182,9 @@ export default function MarvelIntro({
               transition: "background 0.04s",
             }}
           >
-            {frame.imgIndex >= 0 && photos[frame.imgIndex] && (
+            {frame.imgIndex >= 0 && loadedPhotosRef.current[frame.imgIndex] && (
               <img
-                src={photos[frame.imgIndex]}
+                src={loadedPhotosRef.current[frame.imgIndex]}
                 alt=""
                 aria-hidden="true"
                 style={{

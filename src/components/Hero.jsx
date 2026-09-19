@@ -17,7 +17,7 @@ const MY_PHOTOS = [
   "/photos/photo7.jpg",
   "/photos/photo8.jpg",
   "/photos/photo9.jpg",
-  "/photos/photo10.jpg",
+  "/photos/photo10.jpeg",
   "/photos/photo11.jpg",
   "/photos/photo12.jpg",
   "/photos/photo13.jpg",
