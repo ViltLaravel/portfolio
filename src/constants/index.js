@@ -222,7 +222,7 @@ const projects = [
   {
     name: "GEMP",
     description:
-      "During my work in ZongHa, we developed the GEMP Online System to support the Department of Energy’s Government Energy Management Program (GEMP). The platform enables agencies to report and monitor their energy use efficiently, supporting the DOE’s goal of reducing electricity and fuel consumption by 10%.",
+      "Built the frontend of a government platform that helps agencies report and monitor energy use for the Department of Energy.",
     tools: [
       {
         name: "ReactJs",
@@ -269,7 +269,7 @@ const projects = [
   {
     name: "Yep Dev",
     description:
-      "Through an Upwork project, I contributed to the development of the Yep website, an AI chat-bot platform designed to facilitate fast, intuitive communication powered by intelligent automation. With a focus on clean design and responsive interaction, the site delivers an engaging user experience while empowering clients to connect seamlessly with AI-driven support.",
+      "Developed a responsive AI chatbot platform with a focus on fast, intuitive conversations and a clean interface.",
     tools: [
       {
         name: "NextJs",
@@ -308,7 +308,7 @@ const projects = [
   {
     name: "FaithAdmin",
     description:
-      "FaithAdmin is a full-featured management platform built for religious organizations, designed to simplify the complexities of running a congregation. It provides administrators with a centralized dashboard to manage member records, track attendance, and coordinate community activities  making day-to-day church operations more organized and less time-consuming.",
+      "Built a management dashboard for religious organizations to track members, attendance, and community activities.",
     tools: [
       {
         name: "Next.js",
@@ -335,7 +335,7 @@ const projects = [
   {
     name: "Vespucci",
     description:
-      "Vespucci is a sleek booking planner and organizer platform crafted to make scheduling and event coordination effortless. Contributed across the full design-to-development pipeline  from shaping the user experience in Figma to building responsive, interactive components. The result is a clean, intuitive interface that keeps users in control of their plans without the clutter.",
+      "Designed the user experience in Figma and built responsive components for a booking and event planning platform.",
     tools: [
       {
         name: "React",
@@ -366,7 +366,7 @@ const projects = [
   {
     name: "OKX Trading Bot",
     description:
-      "A full-featured automated crypto trading bot integrated with the OKX exchange API, enabling users to execute rule-based trading strategies without manual intervention. Features real-time candlestick charts powered by lightweight-charts, automated order execution via scheduled cron jobs, and a clean dashboard for monitoring positions and performance — giving traders a hands-free edge in fast-moving markets.",
+      "Built an OKX trading dashboard with rule-based orders, live candlestick charts, and scheduled automation.",
     tools: [
       {
         name: "Next.js",
@@ -405,7 +405,7 @@ const projects = [
   {
     name: "ABIMS",
     description:
-      "ABIMS is a robust inventory management system built to give businesses real-time visibility and control over their stock. From tracking product movements and managing purchase orders to generating inventory reports, the platform streamlines operations end-to-end. Deployed on AWS EC2 via Dokku, the system is production-ready with a scalable infrastructure that handles both the frontend and backend under a unified, maintainable pipeline.",
+      "Built and deployed an inventory system for tracking stock, purchase orders, and reports, using AWS EC2 and Dokku.",
     tools: [
       {
         name: "Next.js",
@@ -452,7 +452,7 @@ const projects = [
   {
     name: "Zurpri",
     description:
-      "Zurpri is a personal project for creating custom surprise web pages for special occasions like birthdays, monthsaries, crush reveals, and anniversaries. Users pick from interactive templates featuring unlockable content, quizzes, and video reveals, then receive a personalized shareable link to send to their guests.",
+      "Created a platform for personalized surprise pages with interactive templates, quizzes, video reveals, and shareable links.",
     tools: [
       {
         name: "Next.js",
@@ -491,7 +491,7 @@ const projects = [
   {
     name: "Jokie",
     description:
-      "Jokie delivers a fresh programming joke on demand for developers who need a quick laugh. The responsive interface fetches jokes from the Official Joke API and includes developer and project information in accessible modal dialogs.",
+      "Made a responsive app that fetches programming jokes on demand and presents extra information in accessible dialogs.",
     tools: [
       {
         name: "React",
@@ -526,7 +526,7 @@ const projects = [
   {
     name: "Kawaii Finder",
     description:
-      "Kawaii Finder is a sleek anime discovery app for browsing and searching thousands of titles from MyAnimeList. It uses the Jikan API to present anime artwork, scores, release details, and direct links in a responsive interface.",
+      "Built an anime discovery app with search, artwork, scores, and release details from the Jikan API.",
     tools: [
       {
         name: "Vue 3",
